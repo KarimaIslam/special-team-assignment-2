@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Catamaran', sans-serif;
+
+}
+.logo{
+    width: 100%;
+    text-align: center;
+    background-color: #F5F5F1;
+
+
+}
+.navbar ul li{
+    color: rgb(0, 0, 0);
+   
+    text-align: right; 
+     
+ list-style: none;
+ display: inline-block;
+ margin: 0 20px ;
+ position: relative;
+ }
+ .navbar ul li a{
+      text-decoration: #000000;
+      color: #333338 ;
+      text-transform: capitalize;
+    font-size: 14px;
+ 
+ 
+ } 
+ .navbar ul li a:hover{
+    color: #FC7523;
+
+ }
+ .navbar{
+
+    background-color: #F5F5F1;
+
+position: relative;
+height: 60px;
+padding: 35px 0;
+text-align: center;
+
+width: 100%;
+
+ }
+
+ .navbar ul li:hover::after{
+
+    width: 100%;
+}
+
+ .navbar ul li::after{
+
+    content: '' ;
+    height: 3px;
+    width: 0;
+    background: #FC7523;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    
+    
+}
+.slideimg{
+    height: 500px;
+    width: 100%;
+
+}
+.slide{  height: 500px;
+        background-color: rgba(255,255,255,0);
+        background-image: url("ima/slide1-bg.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        border: 0px solid #eae9e9;
+        background-size: cover;
+        position: relative;
+        width: 100%;
+}
+.slide-text {
+        background-color: white;
+        /* margin-top: 40px; */
+        width: 657px; 
+        z-index: 1;
+        /* padding: 20px 10px; */
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        border-radius: 15px;
+        
+}
+.slidetext{
+    font-size: 45px;
+    font-weight: 400;
+    padding: 10px ;
+    z-index: 1;
+    line-height: 55px;
+    background-color: white;
+    margin-bottom: 0;
+}
+.slide-bg{
+    width:657px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    height: 181px;
+}
+.slide-bg a{
+    width: 149px;
+    background-color: #FC7523 !important; 
+    display: block;
+    margin: auto;
+    z-index: 2 !important; 
+    margin-top: -230px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    font-weight: 400;
+    padding: 6px 0px;
+
+
+}
+.date{
+    font-size: 17px !important;
+    font-weight: 400;
+color: #67615a;  
+text-align: center; 
+padding: 0;
+background-color: white;
+}
+
+.width{
+    margin-top: 20px;
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    position: relative;
+}
+.header{
+    display: flex;
+    position:absolute;
+    width: 100%;
+    background-color: white;
+}
+.fss-wrapper {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    position: fixed;
+    top: 150px;
+    right: 0;
+    padding: 4px 0px;
+    width: 66px;
+    height: 66px;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 0 25px 5px rgba(0,0,0,.1);
+}
+.header .img{
+    margin: 30px;
+    background-color: white;
+
+}
+.third{
+    margin-left: 400px;
+    position: absolute;  
+    margin-bottom: 20px;
+
+}
+
+.third p{
+    color: #67615a    ;
+    font-size: 18px;
+    padding-top: 12px;
+}
+.third p:first-child{
+    padding-top: 70px;
+}
+
+.third p:hover{
+    color: #FC7523;
+}
+.fourth{
+    margin-left: 600px;
+    position: absolute;  
+    margin-bottom: 20px;
+    border-left: 1px dotted #67615a;
+
+
+}
+
+.fourth h1{
+    margin-top: 65px;
+    font-size: 15px;
+
+    color: #FC7523;
+    margin-left: 25px;
+}
+.fourth p{
+    color: #67615a;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 50px;
+
+
+}
+
+.fourth p:hover{
+    color: #FC7523;
+}
+.fifth{
+    margin-left: 900px;
+    position: absolute;
+    font-size: 8px;
+    color: #FC7523;
+    margin-top: 65px;
+    border-left: 1px dotted #67615a;
+
+
+}
+.fifth h1{
+    margin-left: 30px;
+}
+.copyright p {
+    margin-top:50px ;
+    font-size: 13px;
+    color: #67615a;
+    margin-left: 450px;
+    
+}
+.hover-images{
+    background: url("ima/Screenshot_1.png") ;
+    height: 200px;
+    width: 100%;
+
+}
+.hover-text{
+    height: 200px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.48);
+    display: none;
+    position: relative;
+    
+}
+.hover-images:hover .hover-text{
+    display: block;
+}
+.fa-link{
+    background-color: white;
+    color: #FC7523;
+    padding: 12px;
+    font-size: 60px;
+    border-radius: 3px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: block;
+    height: 20px;
+    width: 20px;
+}
